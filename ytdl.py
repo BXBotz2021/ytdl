@@ -6,9 +6,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 # Initialize the bot with your API credentials
 app = Client(
     "ytdl",
-    api_id=123456,  # Replace with your API ID from https://my.telegram.org/apps
-    api_hash="your_api_hash",  # Replace with your API hash from https://my.telegram.org/apps
-    bot_token="your_bot_token"  # Replace with your bot token from @BotFather
+    api_id=7813390,  # Replace with your API ID from https://my.telegram.org/apps
+    api_hash="1faadd9cc60374bca1e88c2f44e3ee2f",  # Replace with your API hash from https://my.telegram.org/apps
+    bot_token="7782061742:AAGk4KcgzWnuT6sCJEoiCAyn1qAkCqiRkQc"  # Replace with your bot token from @BotFather
 )
 
 # Directory to save downloaded files
