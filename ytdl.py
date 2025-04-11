@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 
 # Initialize the bot with your API credentials
 app = Client(
-    "quality_selection_youtube_downloader_bot",
+    "ytdl",
     api_id=123456,  # Replace with your API ID from https://my.telegram.org/apps
     api_hash="your_api_hash",  # Replace with your API hash from https://my.telegram.org/apps
     bot_token="your_bot_token"  # Replace with your bot token from @BotFather
