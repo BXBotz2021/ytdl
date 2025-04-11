@@ -26,8 +26,11 @@ def start(client, message):
     )
 
 # Handle YouTube video links
-@app.on_message(filters.text & ~filters.command)
+@app.on_message(filters.text)
 def handle_youtube_link(client, message):
+    if message.text.startswith("/"):
+        return  # Ignore commands
+    # Continue processing YouTube links..
     url = message.text.strip()
 
     try:
